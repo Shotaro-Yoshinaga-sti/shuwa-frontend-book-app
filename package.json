@@ -9,7 +9,7 @@
     "serve": "webpack-dev-server",
     "build": "webpack",
     "lint:ts": "tsc --noEmit",
-    "eslint": "eslint ./src --ext ts,tsx",
+    "eslint": "eslint ./src --fix --ext ts,tsx",
     "test": "jest"
   },
   "devDependencies": {
