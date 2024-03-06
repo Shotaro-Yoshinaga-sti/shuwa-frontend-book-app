@@ -10,7 +10,7 @@ jobs:
     # 5 複数のNode.jsバージョンのマトリックスで実施
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]
     # 6 ジョブ実行のステップシーケンス
     steps:
     # 7 GitHub Actionsが提供するアクション
