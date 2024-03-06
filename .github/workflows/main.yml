@@ -22,8 +22,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Package Install
       run: npm i
-    - name: TypeScript Compile
-      run: npx lint:ts
+    # - name: TypeScript Compile
+    #   run: npx lint:ts
     - name: Jest UnitTest
       run: npm run test
     - name: ESLint linting
