@@ -21,9 +21,9 @@ jobs:
         # 8 マトリックスの変数を使用する
         node-version: ${{ matrix.node-version }}
     - name: Package Install
-      run: npm run
+      run: npm i
     - name: TypeScript Compile
-      run: npm run lint:ts
+      run: npx lint:ts
     - name: Jest UnitTest
       run: npm run test
     - name: ESLint linting
