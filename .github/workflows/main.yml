@@ -26,3 +26,5 @@ jobs:
         run: npm run lint:ts
       - name: Jest UnitTest
         run: npm run test
+      - name: ESLint linting
+        run: npm run eslint    
