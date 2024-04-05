@@ -6,16 +6,14 @@
   "author": "n05-frontend",
   "license": "MIT",
   "scripts": {
-    "serve": "webpack-dev-server",
-    "build": "webpack",
+    "dev": "vite",
+    "build": "vite build",
     "lint:ts": "tsc --noEmit",
     "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.10.0",
-    "@babel/plugin-transform-runtime": "^7.11.0",
     "@babel/preset-env": "^7.10.0",
-    "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.9.0",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
@@ -26,20 +24,16 @@
     "@types/react-transition-group": "^4.4.0",
     "@types/styled-components": "^5.1.2",
     "babel-jest": "^26.3.0",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.11.1",
+    "@vitejs/plugin-react": "^4.2.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.3",
     "enzyme-to-json": "^3.5.0",
     "jest": "^26.0.1",
     "ts-jest": "^26.1.0",
-    "typescript": "^3.9.3",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "typescript": "^4.9.3",
+    "vite": "^5.2.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.11.2",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
